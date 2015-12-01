@@ -1,0 +1,40 @@
+"*":
+  "exception-reporting":
+    userId: "4a9e641b-7a21-9bb8-5aa9-5575cf372b24"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    disabledPackages: [
+      "go-to-line"
+      "grammar-selector"
+      "image-view"
+      "background-tips"
+      "bookmarks"
+      "deprecation-cop"
+      "encoding-selector"
+      "exception-reporting"
+      "feedback"
+      "autocomplete"
+    ]
+    ignoredNames: [
+      "node_modules\\*"
+      "json\\*"
+      ".idea\\*"
+    ]
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    tabLength: 4
+    softWrap: true
+  "autocomplete-plus":
+    defaultProvider: "Symbol"
+    maxVisibleSuggestions: 5
+    confirmCompletion: "enter"
+  "recent-files":
+    updated: false
+  "atom-beautify":
+    _analyticsUserId: "0b351ccd-4063-4205-acd3-0ab90895b53f"
