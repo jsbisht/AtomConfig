@@ -1,0 +1,1 @@
+dir packages *.* /b > packages.txt
